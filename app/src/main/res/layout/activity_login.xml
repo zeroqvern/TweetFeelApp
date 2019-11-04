@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bright"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo_verti"
+
+        />
+
+    <LinearLayout
+        android:layout_width="270sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:orientation="horizontal"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:src="@drawable/ic_person_black_24dp">
+
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/username"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock_black_24dp"
+            android:paddingLeft="2dp"
+            >
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/button"
+        android:id="@+id/signinbtn"
+        android:layout_marginTop="50sp"
+        android:text="@string/login"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/bright"
+        android:textSize="15sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/cpb"
+        android:layout_marginTop="50sp"
+        android:visibility="gone"
+        />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/resetpassword"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Reset password?"-->
+    <!--        android:layout_marginTop="20sp"-->
+    <!--        android:textSize="15sp"-->
+    <!--        />-->
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/button"
+        android:id="@+id/signUpBtn"
+        android:layout_marginTop="15sp"
+        android:text="@string/signup"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/bright"
+        android:textSize="15sp"
+        android:shadowColor="@color/dark"
+        android:shadowDy="10"
+        />
+
+
+
+</LinearLayout>

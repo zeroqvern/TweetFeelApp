@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TweetFeel</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="retypePass">Re-type password</string>
+    <string name="loginLink">Already a member? Log in here</string>
+    <string name="logout">Log Out</string>
+
+    <string name="newAnalysis">New Analysis</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+
+    <string name="keywordTitle">ENTER KEYWORD</string>
+    <string name="keyDesc">to search for related tweets</string>
+    <string name="keyword">keyword or hashtag</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+    <string name="compare">Compare keywords</string>
+    <string name="predicting">Retrieving tweets&#10;and analyzing...</string>
+    <string name="keywordHeader">KEYWORD</string>
+
+    <string name="analysis">Sentiment Analysis</string>
+    <string name="checked">Tweets checked :</string>
+    <string name="details">Show Details</string>
+    <string name="viewTweets">View Tweets</string>
+    <string name="pos">Positive :</string>
+    <string name="neg">Negative :</string>
+    <string name="total">Total :</string>
+    <string name="defaultNum">0.0</string>
+
+    <string name="noKeyword">You have not search anything yet!</string>
+
+    <string name="bar">Bar Chart</string>
+    <string name="pie">Pie Chart</string>
+    <string name="export">screenshot</string>
+    <string name="data">CSV/Table</string>
+
+
+    <string name="profile">Profile</string>
+    <string name="keywordCount">keyword(s)</string>
+    <string name="changePass">Change Password</string>
+    <string name="detailsTitle">Details</string>
+
+    <string name="posTitle">Positive</string>
+    <string name="allTitle">All</string>
+    <string name="negTitle">Negative</string>
+
+    <string name="sampleText">Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in volupt.</string>
+    <string name="dateTime"> 201x-1x-0x 14:55</string>
+
+</resources>
+
